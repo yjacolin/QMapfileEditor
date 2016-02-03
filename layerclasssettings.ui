@@ -47,7 +47,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QSpinBox" name="class_maxscaledenom_spin"/>
+       <widget class="QSpinBox" name="mf_class_maxscaledenom_spin"/>
       </item>
       <item>
        <spacer name="horizontalSpacer_5">
@@ -70,7 +70,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QSpinBox" name="class_minscaledenom_spin"/>
+       <widget class="QSpinBox" name="mf_class_minscaledenom_spin"/>
       </item>
      </layout>
     </widget>
@@ -85,14 +85,14 @@
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout_2">
       <item>
-       <widget class="QLabel" name="label">
+       <widget class="QLabel" name="mf_label_expression">
         <property name="text">
          <string>Expression</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="class_expression_edit"/>
+       <widget class="QLineEdit" name="mf_class_expression_edit"/>
       </item>
       <item>
        <spacer name="horizontalSpacer_3">
@@ -115,7 +115,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QComboBox" name="class_group_combo"/>
+       <widget class="QComboBox" name="mf_class_group_combo"/>
       </item>
      </layout>
     </widget>
@@ -137,7 +137,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="class_name_edit"/>
+       <widget class="QLineEdit" name="mf_class_name_edit"/>
       </item>
       <item>
        <spacer name="horizontalSpacer">
@@ -160,14 +160,14 @@
        </widget>
       </item>
       <item>
-       <widget class="QRadioButton" name="class_status_on_2">
+       <widget class="QRadioButton" name="mf_class_status_on">
         <property name="text">
          <string>on</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QRadioButton" name="class_status_off">
+       <widget class="QRadioButton" name="mf_class_status_off">
         <property name="text">
          <string>off</string>
         </property>
@@ -194,7 +194,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QSpinBox" name="class_debug">
+       <widget class="QSpinBox" name="mf_class_debug">
         <property name="maximum">
          <number>2</number>
         </property>
@@ -220,17 +220,17 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="mf_template_edit"/>
+       <widget class="QLineEdit" name="mf_class_template_edit"/>
       </item>
       <item>
-       <widget class="QPushButton" name="mf_template_button">
+       <widget class="QPushButton" name="mf_class_template_button">
         <property name="text">
          <string>Browse</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QCheckBox" name="mf_layer_template_relative">
+       <widget class="QCheckBox" name="mf_class_template_relative">
         <property name="text">
          <string>relative</string>
         </property>
@@ -238,7 +238,7 @@
       </item>
      </layout>
     </widget>
-    <widget class="QGroupBox" name="groupBox_3">
+    <widget class="QGroupBox" name="mf_group_validation">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -248,17 +248,83 @@
       </rect>
      </property>
      <property name="title">
-      <string>Valdiation</string>
+      <string>Validation</string>
      </property>
     </widget>
-    <zorder>horizontalLayoutWidget_4</zorder>
-    <zorder>horizontalLayoutWidget</zorder>
-    <zorder>horizontalLayoutWidget_2</zorder>
-    <zorder>horizontalLayoutWidget_4</zorder>
-    <zorder>horizontalLayoutWidget_2</zorder>
-    <zorder>horizontalLayoutWidget</zorder>
-    <zorder>horizontalLayoutWidget_5</zorder>
-    <zorder>groupBox_3</zorder>
+    <widget class="QWidget" name="horizontalLayoutWidget_6">
+     <property name="geometry">
+      <rect>
+       <x>9</x>
+       <y>149</y>
+       <width>661</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <item>
+       <widget class="QLabel" name="label_text">
+        <property name="text">
+         <string>Text</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_6">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Maximum</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>100</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="mf_lineEdit_text"/>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget_7">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>190</y>
+       <width>661</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_7">
+      <item>
+       <widget class="QLabel" name="mf_label_keyimage">
+        <property name="text">
+         <string>keyimage</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="mf_keyimage_edit"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="mf_keyimage_button">
+        <property name="text">
+         <string>Browse</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="mf_layer_keyimage_relative">
+        <property name="text">
+         <string>relative</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
    </widget>
    <widget class="QWidget" name="class_style_tab">
     <attribute name="title">

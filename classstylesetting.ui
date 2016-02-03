@@ -40,7 +40,7 @@
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout_6">
       <item>
-       <widget class="QLabel" name="label_19">
+       <widget class="QLabel" name="label_offset">
         <property name="text">
          <string>Offset</string>
         </property>
@@ -60,10 +60,10 @@
        </spacer>
       </item>
       <item>
-       <widget class="QSpinBox" name="spinBox_4"/>
+       <widget class="QSpinBox" name="mf_style_spinBox_offsetx"/>
       </item>
       <item>
-       <widget class="QSpinBox" name="spinBox_3"/>
+       <widget class="QSpinBox" name="mf_style_spinBox_offsety"/>
       </item>
      </layout>
     </widget>
@@ -78,14 +78,14 @@
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout_7">
       <item>
-       <widget class="QLabel" name="label_2">
+       <widget class="QLabel" name="label_outilinecolor">
         <property name="text">
          <string>Outline Color</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton">
+       <widget class="QPushButton" name="mf_style_button_outlinecolor">
         <property name="text">
          <string>PushButton</string>
         </property>
@@ -105,14 +105,14 @@
        </spacer>
       </item>
       <item>
-       <widget class="QLabel" name="label_18">
+       <widget class="QLabel" name="label_outlinewidth">
         <property name="text">
          <string>Outline Width</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QDoubleSpinBox" name="doubleSpinBox_3"/>
+       <widget class="QDoubleSpinBox" name="mf_style_spinBox_outlinewidth"/>
       </item>
      </layout>
     </widget>
@@ -127,7 +127,7 @@
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout_9">
       <item>
-       <widget class="QLabel" name="label_15">
+       <widget class="QLabel" name="label_opacity">
         <property name="text">
          <string>Opacity</string>
         </property>
@@ -147,7 +147,7 @@
        </spacer>
       </item>
       <item>
-       <widget class="QSpinBox" name="spinBox_2"/>
+       <widget class="QSpinBox" name="mf_style_spinBox_opacity"/>
       </item>
      </layout>
     </widget>
@@ -162,14 +162,14 @@
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout_8">
       <item>
-       <widget class="QLabel" name="label">
+       <widget class="QLabel" name="label_color">
         <property name="text">
          <string>Color</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_2">
+       <widget class="QPushButton" name="mf_style_button_color">
         <property name="text">
          <string>PushButton</string>
         </property>
@@ -189,14 +189,14 @@
        </spacer>
       </item>
       <item>
-       <widget class="QLabel" name="label_3">
+       <widget class="QLabel" name="label_width">
         <property name="text">
          <string>Width</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QDoubleSpinBox" name="doubleSpinBox_4"/>
+       <widget class="QDoubleSpinBox" name="mf_style_spinBox_width"/>
       </item>
      </layout>
     </widget>
@@ -211,14 +211,14 @@
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout_10">
       <item>
-       <widget class="QLabel" name="label_24">
+       <widget class="QLabel" name="label_25">
         <property name="text">
-         <string>Max Scale Denom</string>
+         <string>Min Scale Denom</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QSpinBox" name="spinBox_5">
+       <widget class="QSpinBox" name="mf_style_spinBox_minscaledenom">
         <property name="maximum">
          <number>1000000000</number>
         </property>
@@ -241,14 +241,14 @@
        </spacer>
       </item>
       <item>
-       <widget class="QLabel" name="label_25">
+       <widget class="QLabel" name="label_24">
         <property name="text">
-         <string>Min Scale Denom</string>
+         <string>Max Scale Denom</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QSpinBox" name="spinBox_6">
+       <widget class="QSpinBox" name="mf_style_spinBox_maxscaledenom">
         <property name="maximum">
          <number>1000000000</number>
         </property>
@@ -277,7 +277,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QDoubleSpinBox" name="doubleSpinBox_2">
+       <widget class="QDoubleSpinBox" name="mf_style_spinBox_angle">
         <property name="maximum">
          <double>360.000000000000000</double>
         </property>
@@ -304,7 +304,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QComboBox" name="comboBox_3"/>
+       <widget class="QComboBox" name="mf_style_comboBox_angleitem"/>
       </item>
      </layout>
     </widget>
@@ -326,7 +326,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QComboBox" name="comboBox"/>
+       <widget class="QComboBox" name="mf_style_comboBox_linecap"/>
       </item>
       <item>
        <spacer name="horizontalSpacer_4">
@@ -349,7 +349,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QComboBox" name="comboBox_2"/>
+       <widget class="QComboBox" name="mf_style_comboBox_linejoin"/>
       </item>
       <item>
        <spacer name="horizontalSpacer_5">
@@ -372,7 +372,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QSpinBox" name="spinBox"/>
+       <widget class="QSpinBox" name="mf_style_spinBox_lnejoinmaxsize"/>
       </item>
      </layout>
     </widget>
@@ -407,14 +407,14 @@
        </spacer>
       </item>
       <item>
-       <widget class="QRadioButton" name="radioButton">
+       <widget class="QRadioButton" name="mf_style_radioButton_antialiason">
         <property name="text">
          <string>True</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QRadioButton" name="radioButton_2">
+       <widget class="QRadioButton" name="mf_style_radioButton_antialiasoff">
         <property name="text">
          <string>False</string>
         </property>
@@ -441,7 +441,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="lineEdit"/>
+       <widget class="QLineEdit" name="mf_style_lineEdit_polaroffset"/>
       </item>
      </layout>
     </widget>
@@ -463,7 +463,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="lineEdit_2"/>
+       <widget class="QLineEdit" name="mf_style_lineEdit_pattern"/>
       </item>
       <item>
        <spacer name="horizontalSpacer_16">
@@ -486,7 +486,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QDoubleSpinBox" name="doubleSpinBox"/>
+       <widget class="QDoubleSpinBox" name="mf_style_spinBox_gap"/>
       </item>
       <item>
        <spacer name="horizontalSpacer_2">
@@ -509,7 +509,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QDoubleSpinBox" name="doubleSpinBox_5"/>
+       <widget class="QDoubleSpinBox" name="mf_style_spinBox_initialgap"/>
       </item>
       <item>
        <spacer name="horizontalSpacer_3">
@@ -559,7 +559,7 @@
          </spacer>
         </item>
         <item>
-         <widget class="QSpinBox" name="spinBox_11"/>
+         <widget class="QSpinBox" name="mf_style_spinBox_size"/>
         </item>
         <item>
          <spacer name="horizontalSpacer_14">
@@ -586,7 +586,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QSpinBox" name="spinBox_9"/>
+             <widget class="QSpinBox" name="mf_style_spinBox_maxwidth"/>
             </item>
            </layout>
           </item>
@@ -600,7 +600,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QSpinBox" name="spinBox_10"/>
+             <widget class="QSpinBox" name="mf_style_spinBox_minwidth"/>
             </item>
            </layout>
           </item>
@@ -618,7 +618,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QSpinBox" name="spinBox_12"/>
+             <widget class="QSpinBox" name="mf_style_spinBox_maxsize"/>
             </item>
            </layout>
           </item>
@@ -632,7 +632,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QSpinBox" name="spinBox_13"/>
+             <widget class="QSpinBox" name="mf_style_spinBox_minsize"/>
             </item>
            </layout>
           </item>
@@ -653,11 +653,14 @@
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout_5">
       <item>
-       <widget class="QLabel" name="label_5">
+       <widget class="QLabel" name="label_symbol">
         <property name="text">
          <string>Symbol</string>
         </property>
        </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="mf_style_comboBox_symbol"/>
       </item>
      </layout>
     </widget>
@@ -666,6 +669,115 @@
     <attribute name="title">
      <string>Geometry Transformation</string>
     </attribute>
+    <widget class="QWidget" name="verticalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>571</width>
+       <height>361</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_17">
+        <item>
+         <widget class="QRadioButton" name="mf_radio_geotransform_bbox">
+          <property name="text">
+           <string>bbox</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="mf_radio_geotransform_centroid">
+          <property name="text">
+           <string>centroid</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="mf_radio_geotransform_start">
+          <property name="text">
+           <string>start</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="mf_radio_geotransform_end">
+          <property name="text">
+           <string>end</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="mf_radio_geotransform_labelpnt">
+          <property name="text">
+           <string>labelpnt</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="mf_radio_geotransform_poly">
+          <property name="text">
+           <string>labelpoly</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="mf_radio_geotransform_vertices">
+          <property name="text">
+           <string>vertices</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="mf_radio_geotransform_group_expression">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="title">
+         <string>expression</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <widget class="QLineEdit" name="mf_lineEdit_geotransform_expression">
+         <property name="geometry">
+          <rect>
+           <x>22</x>
+           <y>50</y>
+           <width>471</width>
+           <height>31</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+    <zorder>verticalLayoutWidget</zorder>
+    <zorder>horizontalLayoutWidget_11</zorder>
    </widget>
   </widget>
  </widget>
